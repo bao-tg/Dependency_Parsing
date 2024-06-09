@@ -4,6 +4,8 @@
 This project have used the implemented configurations from the course CS224n: Natural Language Processing with Deep Learning
 
 # Description
+This project is a part of the project in the course COMP4020: Natural Language Processing, by VinUniversity, Spring 24.
+
 Dependency parsing in NLP analyzes sentence structure by establishing grammatical relations between words, unlike traditional constituency-based parsing. It provides a direct representation of syntactic relationships, crucial for tasks like information extraction and machine translation.
 
 Given the importance of dependency parsing, In this project, we aim to implement two key dependency parsing algorithms: Transition-Based Dependency Parsing and Graph-Based Dependency Parsing.
