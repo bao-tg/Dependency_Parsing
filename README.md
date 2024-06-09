@@ -10,7 +10,15 @@ Dependency parsing in NLP analyzes sentence structure by establishing grammatica
 
 Given the importance of dependency parsing, In this project, we aim to implement two key dependency parsing algorithms: Transition-Based Dependency Parsing and Graph-Based Dependency Parsing.
 
-In this repository, I will implement the basic architect neural network parser for the class of parsing algorithm, traision-based dependency parsing
+In this repository, I will implement the basic architect neural network parser for the class of parsing algorithm, transition-based dependency parsing
+
+### Dataset
++ VnDT: https://github.com/datquocnguyen/VnDT
++ Universal Dependencies: https://github.com/UniversalDependencies
+
+### Embedding dataset:
++ For Vietnamese: https://github.com/datquocnguyen/PhoW2V
++ For English: http://vectors.nlpl.eu/repository/
 
 # Requirements
 
@@ -40,11 +48,7 @@ The default data for the project is VnDT data, if you want to train - test the d
 + Path to the dataset, line 32 - 37
 + Change open(in_file, 'r', encoding = 'utf-8') to open(in_file), line 289, 372.
 + Erase the two conditional commands, line 374, 375.
-+ Change the dimension from line 377 so that it is identical to the dimension of embedddings data (in this case, we change 100 to 300).
-
-# Dataset
-+ VnDT: https://github.com/datquocnguyen/VnDT
-+ Universal Dependencies: https://github.com/UniversalDependencies
++ Change the dimension from line 377 so that it is identical to the dimension of embedding data.
 
 # References
 [1] Universal Dependencies. (2024) \text{UD-Afrikaans-AfriBooms} [GitHub repository]
