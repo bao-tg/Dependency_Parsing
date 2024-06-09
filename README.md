@@ -40,6 +40,10 @@ The default data for the project is VnDT data, if you want to train - test the d
 + Erase the two conditional commands, line 374, 375.
 + Change the dimension from line 377 so that it is identical to the dimension of embedddings data (in this case, we change 100 to 300).
 
+# Dataset
++ VnDT: https://github.com/datquocnguyen/VnDT
++ Universal Dependencies: https://github.com/UniversalDependencies
+
 # References
 [1] Universal Dependencies. (2024) \text{UD-Afrikaans-AfriBooms} [GitHub repository]
 
